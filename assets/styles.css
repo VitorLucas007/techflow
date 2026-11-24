@@ -1,0 +1,64 @@
+:root {
+    --bs-primary: #087f9c;
+    --bs-primary-rgb: 8, 127, 156;
+    --bs-primary-text-emphasis: #07546a;
+    --bs-primary-bg-subtle: #dff5f7;
+    --bs-primary-border-subtle: #a9e3e8;
+    --bs-success: #13a887;
+    --bs-success-rgb: 19, 168, 135;
+    --bs-success-text-emphasis: #08745d;
+    --bs-success-bg-subtle: #ddf7ef;
+    --bs-success-border-subtle: #a9ead5;
+    --bs-link-color: #087f9c;
+    --bs-link-hover-color: #07546a;
+    --bs-tertiary-bg: #f3f8fa;
+    --bs-tertiary-bg-rgb: 243, 248, 250;
+}
+
+body {
+    background-color: #f3f8fa !important;
+}
+
+.btn-primary {
+    --bs-btn-bg: #087f9c;
+    --bs-btn-border-color: #087f9c;
+    --bs-btn-hover-bg: #07546a;
+    --bs-btn-hover-border-color: #07546a;
+    --bs-btn-active-bg: #064354;
+    --bs-btn-active-border-color: #064354;
+}
+
+.btn-outline-primary {
+    --bs-btn-color: #087f9c;
+    --bs-btn-border-color: #087f9c;
+    --bs-btn-hover-bg: #087f9c;
+    --bs-btn-hover-border-color: #087f9c;
+}
+
+.btn-success {
+    --bs-btn-bg: #13a887;
+    --bs-btn-border-color: #13a887;
+    --bs-btn-hover-bg: #08745d;
+    --bs-btn-hover-border-color: #08745d;
+}
+
+.brand-logo {
+    width: 42px;
+    height: 42px;
+    object-fit: contain;
+}
+
+.course-banner {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+}
+
+.landing-hero {
+    background: linear-gradient(135deg, #082e4f 0%, #087f9c 68%, #13a887 100%);
+    color: #fff;
+}
+
+.landing-hero .text-body-secondary {
+    color: rgba(255, 255, 255, .78) !important;
+}

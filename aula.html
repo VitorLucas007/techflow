@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assistindo Curso - TechFlow</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+    <link href="assets/styles.css" rel="stylesheet">
+</head>
+<body class="d-flex flex-column min-vh-100 bg-body-tertiary">
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-lg bg-body border-bottom shadow-sm">
+            <div class="container">
+                <h1 class="h5 mb-0">
+                    <a class="navbar-brand fw-bold d-flex align-items-center gap-2" href="index.html">
+                        <img class="brand-logo" src="assets/Gemini_Generated_Image_jlvelwjlvelwjlve-removebg-preview.png" alt="">
+                        <span>TechFlow</span>
+                    </a>
+                </h1>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Abrir menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="menu">
+                    <ul class="navbar-nav ms-auto gap-lg-2">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Início</a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="cursos.html">Cursos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="perfil.html">Meu Perfil</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="flex-grow-1 py-4 py-lg-5">
+        <div class="container">
+            <!-- Introdução do Curso -->
+            <section class="mb-4">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb small mb-2">
+                        <li class="breadcrumb-item"><a class="link-secondary" href="cursos.html">Cursos</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">HTML5</li>
+                    </ol>
+                </nav>
+                <h2 class="fw-bold">Curso de HTML5 - Fundamentos da Web</h2>
+                <p class="text-body-secondary col-lg-9 mb-0"><strong class="text-body">Introdução:</strong> Neste curso você aprenderá como a internet funciona e como criar a estrutura básica de qualquer site utilizando apenas tags HTML5 semânticas. Conteúdo baseado em playlist gratuita.</p>
+            </section>
+
+            <div class="row g-4">
+                <!-- Player de Vídeo (Incorporado de playlist gratuita) -->
+                <section class="col-lg-8">
+                    <div class="card border-0 shadow-sm overflow-hidden">
+                        <div class="ratio ratio-16x9 bg-dark">
+                            <iframe src="https://www.youtube.com/embed/Ejkb_YpuHWs" title="Player de vídeo da aula" allowfullscreen></iframe>
+                        </div>
+                        <div class="card-body p-4">
+                            <span class="badge text-bg-primary mb-2">Aula Atual</span>
+                            <h3 class="h5 fw-semibold mb-0">01 - Introdução ao HTML5</h3>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Listagem dos Vídeos da Playlist -->
+                <aside class="col-lg-4">
+                    <div class="card border-0 shadow-sm">
+                        <div class="card-header bg-body py-3">
+                            <h3 class="h6 fw-bold mb-0"><i class="bi bi-list-ol me-2 text-primary"></i>Conteúdo do Curso (Playlist)</h3>
+                        </div>
+                        <ol class="list-group list-group-flush list-group-numbered">
+                            <li class="list-group-item list-group-item-action d-flex align-items-start active" aria-current="true">
+                                <a class="ms-2 me-auto text-reset text-decoration-none" href="#aula1">Introdução ao HTML5 e História da Web</a>
+                                <span class="badge text-bg-light ms-2">15:20</span>
+                            </li>
+                            <li class="list-group-item list-group-item-action d-flex align-items-start">
+                                <a class="ms-2 me-auto text-reset text-decoration-none" href="#aula2">Estrutura Básica de um Documento HTML</a>
+                                <span class="badge text-bg-light ms-2">12:45</span>
+                            </li>
+                            <li class="list-group-item list-group-item-action d-flex align-items-start">
+                                <a class="ms-2 me-auto text-reset text-decoration-none" href="#aula3">Títulos, Parágrafos e Quebras de Linha</a>
+                                <span class="badge text-bg-light ms-2">18:10</span>
+                            </li>
+                            <li class="list-group-item list-group-item-action d-flex align-items-start">
+                                <a class="ms-2 me-auto text-reset text-decoration-none" href="#aula4">Listas Ordenadas e Não Ordenadas</a>
+                                <span class="badge text-bg-light ms-2">14:00</span>
+                            </li>
+                            <li class="list-group-item list-group-item-action d-flex align-items-start">
+                                <a class="ms-2 me-auto text-reset text-decoration-none" href="#aula5">Links, Âncoras e Formulários</a>
+                                <span class="badge text-bg-light ms-2">22:30</span>
+                            </li>
+                        </ol>
+                        <div class="card-footer bg-body p-3">
+                            <!-- Botão para ir à página de finalização -->
+                            <a class="btn btn-success w-100 fw-semibold" href="conclusao.html"><i class="bi bi-patch-check me-1"></i> Concluir Curso e Gerar Certificado</a>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+
+            <!-- Parte de Avaliação e Comentários/Feedbacks -->
+            <section class="row g-4 mt-2">
+                <div class="col-lg-8">
+                    <div class="card border-0 shadow-sm mb-4">
+                        <div class="card-body p-4">
+                            <h3 class="h5 fw-bold mb-4">Avaliação e Feedback do Curso</h3>
+                            <form action="#" method="post">
+                                <div class="mb-3">
+                                    <label for="nota" class="form-label fw-medium">Sua nota para este curso</label>
+                                    <select class="form-select" id="nota" name="nota" required>
+                                        <option value="5">5 Estrelas - Excelente</option>
+                                        <option value="4">4 Estrelas - Muito Bom</option>
+                                        <option value="3">3 Estrelas - Bom</option>
+                                        <option value="2">2 Estrelas - Regular</option>
+                                        <option value="1">1 Estrela - Ruim</option>
+                                    </select>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="comentario" class="form-label fw-medium">Deixe seu comentário</label>
+                                    <textarea class="form-control" id="comentario" name="comentario" rows="4" placeholder="O que você achou da didática e do conteúdo?" required></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary px-4"><i class="bi bi-send me-1"></i> Enviar Avaliação</button>
+                            </form>
+                        </div>
+                    </div>
+
+                    <h4 class="h6 fw-bold text-uppercase text-body-secondary mb-3">Comentários dos Alunos (2)</h4>
+                    <div class="vstack gap-3">
+                        <article class="card border-0 shadow-sm">
+                            <div class="card-body d-flex gap-3 p-4">
+                                <i class="bi bi-person-circle fs-2 text-body-tertiary"></i>
+                                <div>
+                                    <div class="d-flex flex-wrap align-items-center gap-2 mb-1">
+                                        <strong>Maria Silva</strong>
+                                        <span class="text-warning small" aria-label="Nota: 5 de 5"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></span>
+                                        <span class="small text-body-secondary">5/5</span>
+                                    </div>
+                                    <p class="text-body-secondary mb-0">"Ótima seleção de vídeos! A explicação sobre tags semânticas ajudou muito no meu trabalho da faculdade."</p>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="card border-0 shadow-sm">
+                            <div class="card-body d-flex gap-3 p-4">
+                                <i class="bi bi-person-circle fs-2 text-body-tertiary"></i>
+                                <div>
+                                    <div class="d-flex flex-wrap align-items-center gap-2 mb-1">
+                                        <strong>João Santos</strong>
+                                        <span class="text-warning small" aria-label="Nota: 4 de 5"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star"></i></span>
+                                        <span class="small text-body-secondary">4/5</span>
+                                    </div>
+                                    <p class="text-body-secondary mb-0">"Conteúdo bem direto ao ponto. Recomendo para quem está começando."</p>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="bg-body border-top py-4 mt-5">
+        <div class="container text-center">
+            <a class="small link-secondary link-underline-opacity-0" href="cursos.html"><i class="bi bi-arrow-left me-1"></i>Voltar para a lista de cursos</a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
